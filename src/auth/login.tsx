@@ -2,9 +2,12 @@ const Login = () => {
   return (
     <div className="login_body w-full h-screen flex items-center justify-center">
       <div className="bg-[#000000] rounded-xl shadow-lg p-8 w-full max-w-md">
-        <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+        <h2 className="text-2xl font-bold text-[#FFFFFF] mb-6 text-center">
           Welcome Back
         </h2>
+        <p className="text-xl text-[#ffff] mb-6 text-center">
+          Sign in to your account to continue
+        </p>
 
         {/* Email */}
         <div className="mb-4">
@@ -12,13 +15,13 @@ const Login = () => {
             className="block text-gray-700 text-sm font-medium mb-1"
             htmlFor="email"
           >
-            Email
+            EMAIL
           </label>
           <input
             type="email"
             id="email"
-            placeholder="Enter your email"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"
+            placeholder="you@email.com"
+            className="w-full px-4 py-2 border text-[#efe6ff] border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"
           />
         </div>
 
@@ -28,7 +31,7 @@ const Login = () => {
             className="block text-gray-700 text-sm font-medium mb-1"
             htmlFor="password"
           >
-            Password
+            PASSWORD
           </label>
           <input
             type="password"
