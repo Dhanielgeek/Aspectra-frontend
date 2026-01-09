@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.login_body {
+  background-image: url("../src/assets/firstscreen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
